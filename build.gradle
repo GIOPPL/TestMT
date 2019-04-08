@@ -5,7 +5,10 @@ buildscript {
     repositories {
         google()
         jcenter()
-        
+        maven { url "https://jitpack.io" }
+        maven { url 'http://uk.maven.org/maven2' }
+        maven { url 'http://jcenter.bintray.com'}
+        maven { url 'https://maven.google.com' }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.3.2'
@@ -20,7 +23,11 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+        maven { url "https://jitpack.io" }
+        maven { url 'http://oss.sonatype.org/content/repositories/snapshots'}
+        maven { url 'http://uk.maven.org/maven2' }
+        maven { url 'http://jcenter.bintray.com'}
+        maven { url 'https://maven.google.com' }
     }
 }
 
